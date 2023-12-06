@@ -1,0 +1,18 @@
+name: "yolov8m"
+platform: "pytorch_libtorch"
+default_model_filename: "best.pt"
+input [
+  {
+    name: "input0"
+    data_type: TYPE_FP32
+    dims: [1, 3, 640, 640]
+  }
+]
+output [
+  {
+    name: "output0"
+    data_type: TYPE_FP32
+    dims: [1, 84, 8400]
+  }
+]
+
