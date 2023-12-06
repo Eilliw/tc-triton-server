@@ -1,0 +1,5 @@
+#all model files
+*.engine
+*.onnx
+*.pt
+*.torchscript
