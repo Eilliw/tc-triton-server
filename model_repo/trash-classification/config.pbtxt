@@ -1,4 +1,4 @@
-name: "yolov8x-cls"
+name: "trash-classification"
 platform: "pytorch_libtorch"
 default_model_filename: "best.pt"
 
