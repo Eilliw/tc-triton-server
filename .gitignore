@@ -3,3 +3,8 @@
 *.onnx
 *.pt
 *.torchscript
+
+!model_repo/trash-classification/**
+
+#old files
+old
